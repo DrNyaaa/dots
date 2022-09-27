@@ -106,7 +106,6 @@ exec polybar mainright & polybar maincentre & polybar mainleft & polybar bottom 
 exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
-exec --no-startup-id /home/ishanpc/.config/eww/src/shell/logger.py init
 exec eww daemon
 exec dunst
 
