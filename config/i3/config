@@ -97,11 +97,8 @@ client.unfocused        #ffffff #ffffff #ffffff #ffffff
 
 #####launch stuff{
 #1 nitrogen|2 keybinds|3 picom|4 - polybar
-exec feh --bg-fill /home/ishanpc/Pictures/Wallpapers/wallpaperflare-cropped.jpg
-exec sxhkd
 exec picom 
-exec steam -nochatui -nofriendui -silent
-	
+
 exec polybar mainright & polybar maincentre & polybar mainleft & polybar bottom &
 exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
